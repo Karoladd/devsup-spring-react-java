@@ -6,12 +6,12 @@ function Header() {
     <>
       <header>
         <div className="dsmeta-logo-container">
+          <br/> <br/>
           <img src={logo} alt="DSMeta" />
-          <h1>DSMeta</h1>
+          <h1>UNION DIGITAL IT</h1>
           <p>
-            Desenvolvido por
-            <a href="https://www.instagram.com/devsuperior.ig">
-               @uniondigitalit.ig
+            Desenvolvido por  <a href="https://www.instagram.com/devsuperior.ig">
+               @karolineymt
             </a>
           </p>
         </div>

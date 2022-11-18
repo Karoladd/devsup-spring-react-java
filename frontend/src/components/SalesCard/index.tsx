@@ -6,6 +6,8 @@ import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
 import { BASE_URL } from "../../utils/request";
 import { Sale } from "../models/sale";
+
+
 function SalesCard() {
   const min = new Date(new Date().setDate(new Date().getDate() - 365));
   const max = new Date();
@@ -25,7 +27,7 @@ function SalesCard() {
   }, [minDate, maxDate]);
   return (
     <div className="dsmeta-card">
-      <h2 className="dsmeta-sales-title">Vendas</h2>
+      <h2 className="dsmeta-sales-title">VENDAS</h2>
       <div>
         <div className="dsmeta-form-control-container">
           <DatePicker
