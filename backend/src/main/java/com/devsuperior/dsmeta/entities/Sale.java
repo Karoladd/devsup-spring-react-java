@@ -41,12 +41,12 @@ public class Sale {
 		this.sellerName = sellerName;
 	}
 
-	public Integer getVidited() {
+	public Integer getVisited() {
 		return visited;
 	}
 
-	public void setVidited(Integer vidited) {
-		this.visited = vidited;
+	public void setVidited(Integer visited) {
+		this.visited = visited;
 	}
 
 	public Integer getDeals() {
